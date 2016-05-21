@@ -11,6 +11,8 @@ Script: [run_analysis.R][run_analysis.R]
 
 Output: [new_dataset.txt][new_dataset.txt]
 
+Codebook: [CodeBook.md][CodeBook.md]
+
 Then I detail the steps followed in the script:
 
 1. First, download and unzip dataset in my working directory.
@@ -25,7 +27,7 @@ Then I detail the steps followed in the script:
 10. Group by activity,subject and summarize with mean of each labels
 11. Write table in new_dataset.txt file
 
-For more detail, see the file [run_analysis.R][run_analysis.R]
+For more detail, see the script file [run_analysis.R][run_analysis.R] and Code Book file [CodeBook.md][CodeBook.md]
 
 A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -35,3 +37,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 [run_analysis.R]: run_analysis.R
 [new_dataset.txt]: new_dataset.txt
+[CodeBook.md]: CodeBook.md
