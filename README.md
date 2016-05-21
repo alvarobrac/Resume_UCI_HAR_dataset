@@ -22,7 +22,7 @@ Then I detail the steps followed in the script:
 5. Merge activity and activity_labels to uses descriptive activity names to name the activities in the data set.
 6. Read subject_train, subject_test files and merge both in a dataset (subjet).
 7. Read Features files in a dataset. Rename labels (names(X)) the data set with descriptibe variable names (subject)
-8. Extrac only th meassurements on the mean and standard deviation for each measurement (Expression Regular in labels)
+8. Extrac only the meassurements on the mean and standard deviation for each measurement (Expression Regular in labels)
 9. Add subject and activity in the dataset(X)
 10. Group by activity,subject and summarize with mean of each labels
 11. Write table in new_dataset.txt file
